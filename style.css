@@ -1,1 +1,142 @@
-/* Add screen styles below */
+body {
+    margin: auto;
+    font-family: Verdana;
+    font-size: 10pt;
+    width: 75%;
+    max-width: 1000px;
+    background-color: rgb(235, 234, 234);
+}
+
+header {
+    background-color: #AE16B1;
+    display: flex;
+    border-radius: 0 0 15px 15px;
+    color: white;
+    align-items: center;
+    margin-top: 0;
+}
+
+header h1 {
+    margin-left: 15px;
+    flex-grow: 3;
+}
+
+.selected {
+    color: #E3B71C;
+    font-weight: bolder;
+    font-size: 14pt
+}
+ul {
+    list-style: none;
+    display: inline;
+    font-size: 12pt
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    flex-grow: 1;
+    margin-right: 60px;
+}
+
+nav {
+ display: flex;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 60px;
+}
+
+ul li:first-child {
+    padding: 0;
+}
+
+.flavor {
+    margin-top: 30px;
+    height: 199px;
+    background-color: #1CE3DF;
+    border-radius: 15px;
+    position: relative;
+}
+
+.nameplate {
+    float: right;
+    margin-right: 150px;
+}
+
+.nameplate h2 {
+    margin-bottom: 0;
+    margin-top: 25px;
+    border-bottom: solid grey 1px;
+}
+
+.nameplate p {
+    margin-top: 0;
+    padding-left: 25px;
+}
+
+.profilepicture {
+    background-color: #E3B71C;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -60px;
+    left: 100px;
+}
+
+.content {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+.about {
+    border-radius: 15px;
+    max-height: 300px;
+    background-color: #1CE3DF;
+}
+
+article {
+    flex-grow: 3;
+    background-color: #1CE3DF;
+    height: 800px;
+    border-radius: 15px 15px 0 0;
+}
+
+.active {
+    background-color: #1CE3DF;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.know {
+    border-radius: 15px;
+    margin-top: 40px;
+    background-color: #1CE3DF;
+    height: 300px;
+}
+
+.border {
+    border-bottom: solid grey 1px;
+    padding-top: 15px;
+    height: 25px;
+}
+
+h3 {
+    margin: 0 0 5px 20px;
+}
+
+article ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+    color: #AE16B1;
+}
+
